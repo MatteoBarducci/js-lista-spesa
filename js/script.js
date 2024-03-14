@@ -10,21 +10,15 @@ const list = [
     'Piatti pronti'
 ];
 
-const container = (document.getElementById('first-container'))
-console.log(container)
+const container = (document.getElementById('container'))
 
-for (let i = 0; i < list.length; i++) {
-    let thisItem = list[i];
-    console.log(thisItem);
-    container.innerHTML += ('<li>' + thisItem + '</li>')
+// for (let i = 0; i < list.length; i++) {
+//     let thisItem = list[i];
+//     container.innerHTML += ('<li>' + thisItem + '</li>')
+// }
+
+let i = 0;
+while (i < list.length - 1){
+    i++
+    container.innerHTML += ('<li>' + list[i] + '</li>')
 }
-
-const secondList = [
-    'Latte',
-    'Cacao',
-    'Insalata',
-    'Carote',
-    'Pomodori',
-    'Piatti pronti'
-];
-
