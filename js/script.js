@@ -18,7 +18,7 @@ const container = (document.getElementById('container'))
 // }
 
 let i = 0;
-while (i < list.length - 1){
-    i++
+while (i < list.length){
     container.innerHTML += ('<li>' + list[i] + '</li>')
+    i++
 }
