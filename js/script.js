@@ -9,3 +9,22 @@ const list = [
     'Pomodori',
     'Piatti pronti'
 ];
+
+const container = (document.getElementById('first-container'))
+console.log(container)
+
+for (let i = 0; i < list.length; i++) {
+    let thisItem = list[i];
+    console.log(thisItem);
+    container.innerHTML += ('<li>' + thisItem + '</li>')
+}
+
+const secondList = [
+    'Latte',
+    'Cacao',
+    'Insalata',
+    'Carote',
+    'Pomodori',
+    'Piatti pronti'
+];
+
